@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/starwars-list",
+  base: "/starwars-list/",
   plugins: [react()],
   test: {
     globals: true,
