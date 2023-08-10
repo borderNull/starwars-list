@@ -38,4 +38,5 @@ export const PersonNoResults = styled(Box)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: black;
 `;
