@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/starwars-list/"}>
       <Routes>
         <Route path="/" element={<PersonList />} />
         <Route path="/person/:personId" element={<PersonCard />} />
