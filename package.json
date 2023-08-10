@@ -1,5 +1,6 @@
 {
   "name": "starwars-list",
+  "homepage": "http://borderNull.github.io/starwars-list",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite --open",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "test": "vitest"
+    "test": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -33,6 +36,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^5.0.0",
     "jsdom": "^22.1.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
