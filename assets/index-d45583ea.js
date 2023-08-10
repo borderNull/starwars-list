@@ -208,6 +208,7 @@ Error generating stack: `+i.message+`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: black;
 `,vI=x.memo(({personName:e,id:t})=>{const n=Bf(),r=()=>{n("person/"+t)};return k.jsxs(fI,{children:[k.jsxs(LO,{onClick:r,children:[k.jsx(ZO,{component:"img",height:"100",image:uI,alt:"star wars logo"}),k.jsx(AT,{children:k.jsx(Zo,{children:e})})]}),k.jsx(mI,{children:k.jsx(Eu,{children:k.jsx(xb,{color:"primary",to:`/person/${t}`,children:"view full profile"})})})]})}),yI=Le(vn)`
   display: flex;
   justify-content: center;
